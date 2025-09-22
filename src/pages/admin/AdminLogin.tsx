@@ -54,10 +54,10 @@ const AdminLogin = () => {
             <LogIn className="mr-2" size={16} />
             Demo Credentials
           </h3>
-          <div className="text-sm text-muted-foreground space-y-1">
+          {/* <div className="text-sm text-muted-foreground space-y-1">
             <p><strong>Email:</strong> admin@aisolutions.com</p>
             <p><strong>Password:</strong> admin123</p>
-          </div>
+          </div> */}
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
